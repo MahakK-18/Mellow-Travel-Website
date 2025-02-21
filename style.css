@@ -1,0 +1,215 @@
+body {
+  overflow-x: hidden;
+  font-family: "Sora", serif !important;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.secondary-navbar-text {
+  font-size: small;
+}
+
+h1 {
+  font-family: "Cormorant Upright", serif;
+  font-weight: 200 !important;
+}
+
+.btn {
+  background-color: #f1ebe2 !important;
+  padding: 10px 30px !important;
+}
+
+.secondary-navbar {
+  background-color: #efeae3;
+  padding: 0rem 5rem;
+}
+
+.secondary-navbar i {
+  margin: 0.7rem;
+  color: #ecb27b;
+}
+
+.navbar .container-fluid {
+  padding: 0.5rem 5rem;
+}
+
+.landing-page-bg-1 {
+  width: 100%;
+  height: 80vh;
+  padding: 1rem 5rem;
+}
+
+.main-heading {
+  font-size: 5rem;
+}
+
+.sub-main-headings {
+  font-size: 4rem;
+  text-align: center;
+}
+
+.landing-page-bg-2 {
+  width: 100%;
+  height: 80vh;
+  background-image: url(img/slider-image.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.landing-page-bg-1 form {
+  width: 20rem;
+  height: 35rem;
+  padding: 2rem;
+}
+
+.landing-page-bg-1 form h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.second-page-bg {
+  padding: 1rem 5rem;
+}
+
+.statistics-bg {
+  padding: 2rem 5rem;
+  text-align: center;
+}
+
+.gallery-bg {
+  padding: 2rem 5rem;
+}
+
+.second-page-bg img {
+  border-radius: 20px;
+}
+
+
+
+/* Room Showcase Slider Swiper CSS */
+
+.room-container {
+  padding: 2rem 5rem;
+}
+
+.room-swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.room-swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.room-swiper-slide .pinky {
+  overflow: clip;
+  border-radius: 20px;
+  width: 100%;
+  transition: all 0.7 ease-in;
+}
+
+.room-swiper-slide .pinky img {
+  display: block;
+  width: 100%;
+  height: 90%;
+  object-fit: cover;
+  border-radius: 20px;
+  transition: all 0.6s ease;
+}
+
+.pinky:hover img {
+  transform: scale(1.1);
+}
+
+.chinky {
+  transition: all 0.7s ease-in;
+  width: 100%;
+  height: 84%;
+  border-radius: 20px; 
+  visibility: hidden;
+}
+.pinky {
+  transition: all 0.5s ease;
+
+}
+.chinky:hover{
+  background: rgb(1,1,1,0.4);
+  
+}
+
+.pinky:hover .chinky {
+  display: block;
+  visibility: visible;
+  
+}
+
+.room-swiper-slide span {
+  color: #d16806;
+  font-size: larger;
+}
+
+.swiper-pagination-bullet {
+  background: #d16806 !important;
+  color: #d16806 !important;
+}
+
+/* Room Showcase Slider Swiper CSS End */
+
+/* Services */
+.main-div-services{
+  padding: 2rem 10rem;
+}
+.service-boxes{
+  height:30rem!important;
+  width:23rem!important;
+  transition: all 0.7s ease;
+}
+.service-boxes:hover{
+  border-color: #ecb27b!important;
+}
+
+/* Services end */
+
+
+/* blogs */
+.blogs-bg{
+  padding: 2rem 5rem;
+}
+.rinky{
+  position: relative;
+  overflow:hidden;
+  border-radius: 25px;
+  width: 80%;
+  
+}
+.rinky h1{
+  font-weight: 500!important;
+  transition: all 0.5s ease;
+  
+}
+.rinky h1:hover{
+  color: #f1a45b;
+
+}
+.rinky img{
+  transition: all 0.7s ease;
+
+}
+
+.rinky:hover img{
+  transform:scale(1.1);
+}
+.footer-links{
+   transition: all 0.5s ease;
+}
+.footer-links a:hover{
+  color: #f1a45b!important;
+}
+
